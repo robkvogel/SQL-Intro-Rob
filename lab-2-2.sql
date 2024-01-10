@@ -1,6 +1,12 @@
 -- What are the teams (and years) that have played at 
 -- Guaranteed Rate Field?
 
+
+
+SELECT year,name,park from teams
+WHERE park  = "Guaranteed Rate Field";
+
+
 -- Expected result:
 --
 -- +------+-------------------+
