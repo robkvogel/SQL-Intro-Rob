@@ -1,8 +1,9 @@
 -- How many teams played in the league in each year?
 
-SELECT year, count(name) FROM teams
+SELECT year, count(*) FROM teams
 GROUP By year
 
+-- Good to use count(*) instead of count(name) because some rows may not have names. * makes sure you count the number of records
 
 -- Expected result: 150 rows, ending with
 --
