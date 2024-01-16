@@ -1,6 +1,6 @@
 -- Drop the students table
 
-DROP TABLE students
+DROP TABLE students;
 
 -- Recreate it
 
